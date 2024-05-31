@@ -1,0 +1,23 @@
+
+.custom-card {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .custom-card:hover {
+    background-color: #f7fafc;
+  }
+  
+  .custom-card-title {
+    color: #3b82f6;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  
+  .custom-card-content {
+    color: #4b5563;
+  }
+  

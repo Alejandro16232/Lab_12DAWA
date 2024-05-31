@@ -1,0 +1,11 @@
+<div *ngIf="post" class="max-w-xl mx-auto my-8">
+    <h2 class="text-2xl font-bold mb-4">{{ post.title }}</h2>
+    <p class="mb-4">{{ post.content }}</p>
+    <img *ngIf="post.imageUrl" [src]="post.imageUrl" alt="Imagen del post" class="mx-auto rounded-lg">
+    <br>
+    <button class="float-left bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" (click)="goBack()">Atrás</button>
+</div>
+  <div *ngIf="!post" class="text-center">
+    <p>No se encontró la publicación.</p>
+  </div>
+  
